@@ -1,0 +1,7 @@
+#resume{width:900px;border:1px solid #9999;margin:0;padding:0}
+#sidebar{width:900px;background-color:gray;text-align:left;display:inline-block}
+#content{width:900px;font-size:12px;line-height: 15px;clear:both}
+.table{width:900px;height:70px;border:1px solid #858585;float:left}
+.table h2{height:70px;line-height:70px;text-align:center;background:#999;margin:auto;display:block;float:left;}
+.table dl,dt,dd{display:inline;}
+#content.space{margin-right:2em}
