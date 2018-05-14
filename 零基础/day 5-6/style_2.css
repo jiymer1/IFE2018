@@ -1,0 +1,4 @@
+#resume{overflow:hidden;}
+#sidebar{width:150px;margin-bottom:-1800px;padding-bottom:1800px;background:rgb(84, 84, 230);float:left;text-align:center;padding-top:15px}
+#content{width:650px;margin-bottom:-1800px;padding-bottom:1800px;float:left;margin-left: 15px}
+#content.space{margin-right: 2em}
