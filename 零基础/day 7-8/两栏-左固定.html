@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+      #box1{height:200px;overflow:auto;box-sizing: content-box;}
+        #left1{width:200px;height:200px;background:red;float:left;box-sizing:border-box;}
+        #right1{width:calc(100% - 200px);height:200px;background:blue;float:left}
+
+        #box2{height:200px;}
+        #left2{width:200px;height:200px;background:gray;position:absolute}
+        #right2{height:200px;background:yellow;margin-left:200px;}
+
+        #box3{height:200px;display:flex;align-items:flex-start;}
+        #left3{width:200px;height:200px;background:red;flex:0 0 auto;}
+        #right3{width:70%;height:200px;background:blue;flex:1 1 auto}
+
+      #box4{height:200px;}
+      #left4{width:200px;height:200px;background:blue;float:left}
+      #right4{height:200px;background:red;margin-left:200px}
+
+      #box5{height:200px;box-sizing:content-box;font-size:0}
+      #left5{width:200px;height:200px;background:gray;display:inline-block;vertical-align:top;box-sizing:border-box}
+      #right5{width:calc(100% - 200px);height:200px;background:yellow;display:inline-block;
+      vertical-align: top;box-sizing:border-box}
+
+      #box6{height:200px;overflow:auto;}
+      #left6{width:200px;height:200px;background:red;float:left}
+      #right6{height:200px;background:blue;margin-left:0;overflow: auto;}
+
+
+    </style>
+
+</head>
+<body>
+<div id="box1">
+<div id="left1"></div>
+<div id="right1"></div>
+</div>
+<div id="box2">
+    <div id="left2"></div>
+        <div id="right2"></div>
+    </div>
+<div id="box3">
+    <div id="left3"></div>
+    <div id="right3"></div>
+
+</div>
+<div id="box4">
+    <div id="left4"></div>
+    <div id="right4"></div>
+</div>
+
+<div id="box5">
+    <div id="left5"></div>
+    <div id="right5"></div>
+</div>
+<div id="box6">
+    <div id="left6"></div>
+    <div id="right6"></div>
+</div>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style type="text/css">
+      #box1{height:200px;}
+        #left1{width:30%;height:200px;background:red;float:left}
+        #right1{width:70%;height:200px;background:blue;float:left}
+
+        #box2{height:200px;}
+        #left2{width:30%;height:200px;background:gray;position:absolute}
+        #right2{width:70%;height:200px;background:yellow;margin-left:30%}
+
+        #box3{height:200px;display:flex;}
+        #left3{width:30%;height:200px;background:red;}
+        #right3{width:70%;height:200px;background:blue}
+
+      #box4{height:200px;}
+      #left4{width:30%;height:200px;background:blue;float:left}
+      #right4{width:70%;height:200px;background:red;margin-left:30%}
+
+      #box5{height:200px;box-sizing:content-box;font-size:0}
+      #left5{width:30%;height:200px;background:gray;display:inline-block;vertical-align:top;}
+      #right5{width:70%;height:200px;background:yellow;display:inline-block;
+      vertical-align: top;}
+
+      #box6{height:200px;overflow:auto;}
+      #left6{width:30%;height:200px;background:red;float:left}
+      #right6{width:70%;height:200px;background:blue;margin-left:0;overflow: auto;}
+
+    </style>
+
+</head>
+<body>
+<div id="box1">
+<div id="left1"></div>
+<div id="right1"></div>
+</div>
+<div id="box2">
+    <div id="left2"></div>
+        <div id="right2"></div>
+    </div>
+<div id="box3">
+    <div id="left3"></div>
+    <div id="right3"></div>
+
+</div>
+<div id="box4">
+    <div id="left4"></div>
+    <div id="right4"></div>
+</div>
+
+<div id="box5">
+    <div id="left5"></div>
+    <div id="right5"></div>
+</div>
+<div id="box6">
+    <div id="left6"></div>
+    <div id="right6"></div>
+</div>
+
+</body>
+</html>
